@@ -1,0 +1,40 @@
++font-serif: dùng các font trong serif (xem config)
++font-size: text-base, text-lg, text-xl --> text-7xl
++font weight (font-bold,...), italic,
++color: mở doc chọn màu
+----
++p-0 -> p-96, pl-0, px-0, py-0 (margin tương tự) (1 số là 0.25rem)
++mt-auto, mx-auto, ...
++space-x-0->96: (gán cho thẻ cha, xác định khoảng cách cá thẻ con bằng margin)
+#Chú ý: có con số 0 --> 96 có thể thay thế bằng [100px]
++border: border-x-2 (border trái phải 2px), rounded-[50%]
++divide (đường chia giữa các thẻ con, gán cho thẻ cha)
+----
++flex (block, inline-block, ...)
++justify-start, justify-end, ...
++items-start, items-end, ...
++flex-row, flex-col,...
++flex-wrap, flex-nowrap, ...
+----
+Tailwind config
+- default config
+- cấu hình extend
+- hàm theme
+- Cấu hình colors
+- Cấu hình font
+-----
+-rounded-full (hình viên thuốc)
+-relative, absolute, ...
+-@apply directive 
+-grids
+-buttons
+-tracking-wider: khoảng cách các chữ (sử dụng letter-spaceing của css)
+-heroicons
+-hover effect
+-transition
++Ôn lại cơ bản (css): transition là short hand của transition-propperty,  transition-duration, transition-timing-function, transition-delay...
++transition, transition-all, transition-colors, ... là các class set sẵn transtition với một số property nhất định
++duration-75 --> 1000 (75ms --> 1000ms) 
++ease-in, ease-out, ease-linear... (timing function)
++delay-75 --> 1000 (transition delay)
++Có một số animation được build-in sẵn như spin, ping, pulse, ...
